@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+
+</head>
+<body>
+    <div class="form">  
+        
+        <form class="abc" name="validateform" action="welcome.html" method="post"onsubmit="return validationform()">
+            <h1>Registration Form</h1>
+            <br>
+            <label for="name">FirstName :</label>
+            <input type="text" name="fname" placeholder=" Enter FirstName">
+            <br><br>
+            <label for="name">LastName :</label>
+            <input type="text" name="lname" placeholder=" Enter LastName"><br><br>
+            <label for="City">CityName :</label>
+            <input type="text" name="cname" placeholder="Enter City"><br><br>
+            <label for="PhoneNumber">PhoneNo :</label>
+            <input type="number" name="number" placeholder="Enter PhoneNo" required>
+            <br><br>
+             <label for="Address">Address :</label>
+            <input class="box" type="text" name="aname" placeholder="Enter Address" required>
+            <br><br>
+            <button class="hex" type="submit" value="Submit" >Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
